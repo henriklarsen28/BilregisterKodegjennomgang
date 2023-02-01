@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bilregister</title>
+</head>
+<body>
+    <h1>Bilregister</h1>
+    <table>
+        <tr>
+            <td>Merke:</td>
+            <td><input type="text" id="merke"></td>
+            <td id="merkeError" class="error"></td>
+        </tr>
+        <tr>
+            <td>Modell</td>
+            <td><input type="text" id="modell"></td>
+            <td id="modellError" class="error"></td>
+        </tr>
+        <tr>
+            <td>Kjennetegn</td>
+            <td><input type="text" id="kjennetegn"></td>
+            <td id="kjennetegnError" class="error"></td>
+        </tr>
+    </table>
+
+    <button onclick="lagreBil()">Lagre</button>
+
+    <div id="biler"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
